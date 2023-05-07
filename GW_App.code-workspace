@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../glass"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GW_App",
+		"livePreview.defaultPreviewPath": "d:/GW_App/main01.html"
+	}
+}

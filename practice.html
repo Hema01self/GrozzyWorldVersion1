@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function
+        function a(){
+            document.write("HIIII");
+        }
+        a();
+
+        // callback function
+        function a1(b){
+            document.write("Hello");
+            b();
+        }
+        function b(){
+            document.write("Hii");  
+        }
+        a1(b);
+
+        //arrow function
+        var add = ()=>{document.writeln("new")};
+        add();
+
+        //self invoking function
+        (function(){document.writeln("anonymous")}());
+
+        //anonymous 
+       var sub=function(){document.write("new1")};
+       sub();
+    </script>
+</body>
+</html>
